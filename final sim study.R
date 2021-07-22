@@ -48,8 +48,6 @@ system.time({
 
 stopCluster(cl)
 
-save(res1,res2,res3,
-     file="results2/sigma01/K8CVn100Reg.Rdata")
 
 # #IRREGULAR
 # system.time({
@@ -74,7 +72,5 @@ save(res1,res2,res3,
 # })
 # 
 # stopCluster(cl)
-# 
-# save(res1,res2,res3,
-#      file="results/sigma01/K8CVn35Cont10AggIrreg.Rdata")
+
 
